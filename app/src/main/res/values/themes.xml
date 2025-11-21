@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Ascend" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary & Secondary -->
+        <item name="colorPrimary">@color/fire</item>
+        <item name="colorPrimaryContainer">@color/purple_700</item>
+        <item name="colorSecondary">@color/fire</item>
+        <item name="colorSecondaryContainer">@color/fire</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+        <item name="color">@color/fire</item>
+
+        <!-- Background & Surfaces -->
+        <item name="colorBackground">@color/ascendColorBackground</item>
+        <item name="colorOnBackground">@color/ascendColorOnBackground</item>
+        <item name="colorSurface">@color/ascendColorSurface</item>
+        <item name="colorOnSurface">@color/ascendColorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/ascendColorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/ascendColorOnSurfaceVariant</item>
+        <item name="colorOutline">@color/ascendColorOutline</item>
+
+        <!-- Bottom Navigation -->
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="itemRippleColor">@color/gray_300</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.Ascend.BottomNav.NoIndicator</item>
+
+        <!-- Buttons -->
+        <item name="materialButtonStyle">@style/Widget.Ascend.Button</item>
+        <item name="buttonStyle">@style/Widget.Ascend.Button</item>
+    </style>
+
+    <!-- Custom Button -->
+    <style name="Widget.Ascend.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <!-- 🚫 Remove Bottom Nav Background Blob -->
+    <style name="Widget.Ascend.BottomNav.NoIndicator" parent="">
+        <item name="android:color">@android:color/transparent</item>
+        <item name="android:shape">rectangle</item>
+        <item name="android:width">0dp</item>
+        <item name="android:height">0dp</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+    </style>
+
+</resources>

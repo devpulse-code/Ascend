@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ascend</string>
+    <string name="delete_habit">Delete habit</string>
+    <string name="check_in_habit">Check in habit</string>
+    <string name="delete_task">Delete Task</string>
+    <!-- New strings added by Gemini -->
+    <string name="back_button_content_description">Back button</string>
+    <string name="new_tracker_title">New Tracker</string>
+    <string name="save_button_text">Save</string>
+    <string name="name_field_label">Name</string>
+    <string name="name_field_hint">e.g., Morning Routine</string>
+    <string name="description_field_label">Description</string>
+    <string name="description_field_hint">Explain the habit purpose</string>
+    <string name="tags_categories_label">Tags / Categories</string>
+    <string name="add_tag_hint">Add tag</string>
+    <string name="frequency_field_label">Frequency</string>
+    <!-- optional if needed -->
+
+    <!-- other strings -->
+    <string-array name="habit_frequency_options">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <!-- add more options if needed -->
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <!-- Define only truly custom attributes here -->
+    <!-- Example: custom app-specific colors -->
+    <attr name="ascendCustomColor" format="color"/>
+    <attr name="colorBackground" format="color"/>
+    <attr name="colorOnSurfaceVariant" format="color"/>
+    <attr name="colorOutline" format="color"/>
+    <attr name="colorPrimaryContainer" format="color"/>
+</resources>

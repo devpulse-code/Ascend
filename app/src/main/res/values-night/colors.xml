@@ -1,0 +1,25 @@
+<resources>
+    <!-- Background & surfaces -->
+    <color name="ascendColorBackground">#121212</color> <!-- true dark -->
+    <color name="ascendColorOnBackground">#FFFFFF</color>
+    <color name="ascendColorSurface">#1E1E1E</color> <!-- elevated cards/buttons -->
+    <color name="ascendColorOnSurface">#E0E0E0</color>
+    <color name="ascendColorOnSurfaceVariant">#A0A0A0</color>
+    <color name="ascendColorOutline">#333333</color>
+
+    <!-- Accent / highlights -->
+    <color name="colorAccent">#BB86FC</color> <!-- purple highlight -->
+
+    <!-- Gradients -->
+    <color name="gradientProgressStart">#BB86FC</color>
+    <color name="gradientProgressTrack">#3700B3</color>
+
+    <!-- Task Card Gradient -->
+    <color name="taskCardGradientStart">#3700B3</color>
+    <color name="taskCardGradientEnd">#6200EE</color>
+
+    <!-- Habit Card Gradient -->
+    <color name="habitCardGradientStart">#3700B3</color>
+    <color name="habitCardGradientEnd">#6200EE</color>
+    <color name="habitCardGradientTrack">#2C2C2C</color>
+</resources>
